@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-const CourseCart = ({ courseTitle, courseCredit, creditRemaining }) => {
+const CourseCart = ({ courseTitle, courseCredit, creditRemaining, coursePrice }) => {
     // console.log(courseTitle)
 
 
@@ -21,7 +21,7 @@ const CourseCart = ({ courseTitle, courseCredit, creditRemaining }) => {
 
                 <hr className="bg-[#1c1b1b99]" />
 
-                <p className="font-semibold text-[#1c1b1b99] mt-4">Total Price : 48000 USD</p>
+                <p className="font-semibold text-[#1c1b1b99] mt-4">Total Price : {coursePrice} USD</p>
 
             </div>
 
@@ -35,5 +35,6 @@ CourseCart.propTypes = {
     count: PropTypes.number,
     courseCredit: PropTypes.number,
     creditRemaining: PropTypes.number,
+    coursePrice: PropTypes.number,
 }
 export default CourseCart;

@@ -4,7 +4,7 @@
     "img": "https://i.ibb.co/gZr8k3N/Rectangle-2.png",
     "title": "Introduction to Python Programming",
     "details": "Learn the fundamentals of Python programming language, including variables, data types, control flow, and functions.",
-    "price": "49.99",
+    "price": 49.99,
     "credit": 5
   },
   {
@@ -12,7 +12,7 @@
     "img": "https://i.ibb.co/xYxD4pF/Rectangle-2-6.png",
     "title": "Web Development with JavaScript",
     "details": "Master JavaScript and its usage in web development. Covers DOM manipulation, AJAX, and modern frameworks like React and Angular.",
-    "price": "79.99",
+    "price": 79.99,
     "credit": 7
   },
   {
@@ -20,7 +20,7 @@
     "img": "https://i.ibb.co/RbDVTf2/Rectangle-3.png",
     "title": "Java Programming for Beginners",
     "details": "Start your journey into Java programming with this comprehensive course covering basic syntax, OOP concepts, and more.",
-    "price": "59.99",
+    "price": 59.99,
     "credit": 6
   },
   {
@@ -28,7 +28,7 @@
     "img": "https://i.ibb.co/B3fKb5W/Rectangle-2-3.png",
     "title": "Data Structures and Algorithms in C++",
     "details": "Explore advanced data structures and algorithms in C++, including arrays, linked lists, trees, sorting algorithms, and more.",
-    "price": "89.99",
+    "price": 89.99,
     "credit": 8
   },
   {
@@ -36,7 +36,7 @@
     "img": "https://i.ibb.co/cXdXb8z/Rectangle-2-2.png",
     "title": "Python for Data Science",
     "details": "Learn Python programming specifically for data science applications, covering libraries like NumPy, Pandas, and Matplotlib.",
-    "price": "69.99",
+    "price": 69.99,
     "credit": 7
   },
   {
@@ -44,7 +44,7 @@
     "img": "https://i.ibb.co/k9LyNFn/Rectangle-2-5.png",
     "title": "iOS App Development with Swift",
     "details": "Build iOS applications from scratch using Swift programming language. Covers UI design, networking, and data storage.",
-    "price": "99.99",
+    "price": 99.99,
     "credit": 9
   },
   {
@@ -52,7 +52,7 @@
     "img": "https://i.ibb.co/SwMd4qS/Rectangle-3-1.png",
     "title": "Full Stack Web Development Bootcamp",
     "details": "Comprehensive bootcamp covering both front-end and back-end web development technologies, including HTML, CSS, JavaScript, Node.js, and databases.",
-    "price": "149.99",
+    "price": 149.99,
     "credit": 12
   },
   {
@@ -60,7 +60,7 @@
     "img": "https://i.ibb.co/1X8x0mR/Rectangle-2-4.png",
     "title": "Machine Learning Fundamentals",
     "details": "Introduction to machine learning concepts and algorithms, including supervised and unsupervised learning, regression, classification, and clustering.",
-    "price": "119.99",
+    "price": 119.99,
     "credit": 10
   },
   {
@@ -68,7 +68,7 @@
     "img": "https://i.ibb.co/sKLSzBG/Rectangle-2-1.png",
     "title": "Android App Development with Kotlin",
     "details": "Learn to develop Android apps using Kotlin programming language. Covers UI development, intents, and working with databases.",
-    "price": "89.99",
+    "price": 89.99,
     "credit": 8
   }
 ]

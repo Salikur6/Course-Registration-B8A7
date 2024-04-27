@@ -11,10 +11,16 @@ function App() {
   const [courseTitle, setCourseTitle] = useState([]);
   const [courseCredit, setCourseCredit] = useState(0);
   const [creditRemaining, setCreditRemaining] = useState(20);
+  const [coursePrice, setCoursePrice] = useState(0);
 
 
   const handleSelectBtn = (course) => {
     const { title, credit, price } = course;
+
+    const newPrice = coursePrice + price;
+    const fixedPrice = parseFloat(newPrice.toFixed(2));
+
+    // console.log(typeof fixedPrice)
 
     const findTitle = courseTitle.find(preTitle => preTitle === title);
     if (findTitle) {
@@ -27,7 +33,10 @@ function App() {
 
     handleToast(course)
 
+    setCoursePrice(fixedPrice);
+
     const newCourseTitle = [...courseTitle, title];
+
     return setCourseTitle(newCourseTitle);
 
   }
@@ -76,6 +85,7 @@ function App() {
             courseTitle={courseTitle}
             courseCredit={courseCredit}
             creditRemaining={creditRemaining}
+            coursePrice={coursePrice}
 
           ></CourseCart>
 
